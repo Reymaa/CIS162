@@ -1,0 +1,102 @@
+html {
+    background-color: #eff1ed;  
+}
+
+body{
+    font-family: 'Ysabeau Office', sans-serif;   
+}
+
+nav {
+    background-color: #47ade5;
+    font-size: 18px;
+  }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  nav li:hover {
+    background-color: #eff1ed;
+  }
+  
+  nav li:hover a {
+    color: #333;
+  }
+  
+h1 {
+    color:#1e3771;
+    text-align: center;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-style: oblique;
+    font-size: 55px;  
+}
+
+h2{
+    color:#1e3771;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;    
+}
+h3 {
+  font-size: 25px;
+  color:#4376D2;
+  font-family: 'Ysabeau Office', sans-serif;
+  display: flex;
+  justify-content: center; 
+}
+.list-container {
+  display: flex;
+  justify-content: center;
+}
+
+ol {
+  font-size: 23px;
+  padding-left: 40px;
+}
+
+.ulist-container {
+  display: flex;
+  justify-content: center;
+}
+
+ul{
+  font-size: 23px;
+  padding-left: 40px;
+
+}
+
+p {
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+}
+  p > a {
+    text-decoration: none;
+    color: #6F61A3;
+  }
+footer{
+    font-family: 'Ysabeau Office', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+  footer > a {
+     text-decoration: none;
+     color: #6F61A3;
+     font-weight: bold;
+     font-family: 'Ysabeau Office', sans-serif;
+}
